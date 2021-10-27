@@ -25,7 +25,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
 
   // these devServer options should be customized in /config/index.js
   devServer: {
-    disableHostCheck: true,
+    disableHostCheck: true, // gitpod dev need set this props ture
     clientLogLevel: "warning",
     historyApiFallback: {
       rewrites: [

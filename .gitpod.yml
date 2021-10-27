@@ -1,6 +1,6 @@
 ports:
-  - port: 3344
-    onOpen: open-preview
+  - port: 8080
+    onOpen: open-browser
 tasks:
   - init: yarn
     command: yarn dev
